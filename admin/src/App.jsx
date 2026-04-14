@@ -15,6 +15,7 @@ function App() {
         <AdminNavbar />
         <div className="pt-16">
           <Routes>
+            <Route path="/" element={<AdminHome />} />
             <Route path="/admin" element={<AdminHome />} />
             <Route path="/admin/add-housing" element={<AddHousing />} />
             <Route path="/admin/tenants" element={<Tenants />} />
