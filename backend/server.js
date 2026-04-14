@@ -16,8 +16,8 @@ const app = express();
 const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:3001',
-  'https://your-frontend-domain.com',      // Your hosted frontend URL
-  'https://your-admin-domain.com',          // Your hosted admin URL
+  'https://rental-house-renter.vercel.app',      // Your hosted frontend URL
+  'https://rental-house-admin-zeta.vercel.app',          // Your hosted admin URL
   'https://your-main-domain.com'            // Your main domain
 ];
 
