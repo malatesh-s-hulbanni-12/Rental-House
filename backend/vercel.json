@@ -10,10 +10,14 @@
     {
       "src": "/api/(.*)",
       "dest": "/server.js"
+    },
+    {
+      "src": "/api/health",
+      "dest": "/server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/server.js"
     }
-  ],
-  "env": {
-    "MONGODB_URI": "your_mongodb_connection_string",
-    "PORT": "5000"
-  }
+  ]
 }
