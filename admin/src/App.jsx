@@ -16,13 +16,12 @@ function App() {
         <div className="pt-16">
           <Routes>
             <Route path="/" element={<AdminHome />} />
-            <Route path="/admin" element={<AdminHome />} />
-            <Route path="/admin/add-housing" element={<AddHousing />} />
-            <Route path="/admin/tenants" element={<Tenants />} />
-            <Route path="/admin/rentals" element={<Rentals />} />
-            <Route path="/admin/complaints" element={<AdminComplaints />} />
-            <Route path="/admin/owner" element={<OwnerPage />} />
-            <Route path="/admin/agreement" element={<AgreementPage />} />
+            <Route path="/add-housing" element={<AddHousing />} />
+            <Route path="/tenants" element={<Tenants />} />
+            <Route path="/rentals" element={<Rentals />} />
+            <Route path="/complaints" element={<AdminComplaints />} />
+            <Route path="/owner" element={<OwnerPage />} />
+            <Route path="/agreement" element={<AgreementPage />} />
           </Routes>
         </div>
       </div>
