@@ -17,7 +17,7 @@ const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:3001',
   'https://rental-house-renter.vercel.app',
-  'https://rental-house-admin-zeta.vercel.app'
+  'https://rental-house-admin-woad.vercel.app'
 ];
 
 app.use(cors({
