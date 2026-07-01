@@ -43,6 +43,7 @@ app.use('/api/rentals', require('./routes/rentalRoutes'));
 app.use('/api/complaints', require('./routes/complaintRoutes'));
 app.use('/api/owner', require('./routes/ownerRoutes'));
 app.use('/api/maintenance', require('./routes/maintenanceRoutes'));
+app.use('/api/water-usage', require('./routes/waterUsageRoutes')); // <-- Add this line
 
 // Basic route
 app.get('/', (req, res) => {
@@ -54,7 +55,8 @@ app.get('/', (req, res) => {
       '/api/rentals',
       '/api/complaints',
       '/api/owner',
-      '/api/maintenance'
+      '/api/maintenance',
+      '/api/water-usage' // <-- Add this
     ]
   });
 });
