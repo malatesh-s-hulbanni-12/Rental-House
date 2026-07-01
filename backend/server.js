@@ -18,7 +18,8 @@ const allowedOrigins = [
   'http://localhost:3001',
   'https://rental-house-renter.vercel.app',
   'https://rental-house-admin-woad.vercel.app',
-  'http://localhost:5173'
+  'http://localhost:5173',
+  'https://rental-house-client-gamma.vercel.app'
 ];
 
 app.use(cors({
